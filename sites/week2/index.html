@@ -1,190 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/styles.css">
-<title>Module 2 - Solution</title>
-<style>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>module2-solution</title>
+  </head>
+  <body>
+    <h1>Our Menu</h1>
 
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
+    <div class=".row">
+      <div class="col-lg col-md1 col-sm">
+        <section class="p1">
+          <p class="chicken">Chicken</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </section>
+      </div>
 
+      <div class="col-lg col-md1 col-sm">
+        <section class="p1">
+          <p class="beef">Beef</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </section>
+      </div>
 
-/* Simple Responsive Framework. */
-
-
-
-
-/********** Desktop devices only **********/
-@media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-    border: 1px white;
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px white;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-    padding: 0px;
-  }
-}
-
-@media (max-width: 767px) {
-  .col-smll-1, .col-smll-2, .col-smll-3, .col-smll-4, .col-smll-5, .col-smll-6, .col-smll-7, .col-smll-8, .col-smll-9, .col-smll-10, .col-smll-11, .col-smll-12 {
-    float: left;
-    border: 1px white;
-  }
-  .col-smll-1 {
-    width: 8.33%;
-  }
-  .col-smll-2 {
-    width: 16.66%;
-  }
-  .col-smll-3 {
-    width: 25%;
-  }
-  .col-smll-4 {
-    width: 33.33%;
-  }
-  .col-smll-5 {
-    width: 41.66%;
-  }
-  .col-smll-6 {
-    width: 50%;
-  }
-  .col-smll-7 {
-    width: 58.33%;
-  }
-  .col-smll-8 {
-    width: 66.66%;
-  }
-  .col-smll-9 {
-    width: 74.99%;
-  }
-  .col-smll-10 {
-    width: 83.33%;
-  }
-  .col-smll-11 {
-    width: 91.66%;
-  }
-  .col-smll-12 {
-    width: 100%;
-  }
-}
-
-
-</style>
-</head>
-<body>
-<h1>Our Menu </h1>
-
-<div class="row">
-  <div class="col-lg-4 col-md-6 col-smll-12">
-    <div class="Titulo"> Chicken </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="col-lg-4 col-md-6 col-smll-12">
-    <div class="Titulo"> Beef </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="col-lg-4 col-md-12 col-smll-12">
-    <div class="Titulo"> Sushi </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-
-
-</body>
+      <div class="col-lg col-md2 col-sm">
+        <section class="p2">
+          <p class="sushi">Sushi</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </section>
+      </div>
+    </div>
+  </body>
 </html>
