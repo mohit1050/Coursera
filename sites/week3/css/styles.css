@@ -1,0 +1,17 @@
+#header-nav {
+  background-color: aqua;
+  border-radius: 0;
+  border: 0;
+}
+#nav-list {
+  text-align: center;
+}
+.box {
+  background-color: rgb(196, 196, 196);
+}
+.content-box {
+  font-size: large;
+}
+p {
+  margin: 10px;
+}
